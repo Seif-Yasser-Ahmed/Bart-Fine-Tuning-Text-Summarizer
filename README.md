@@ -2,6 +2,8 @@
 
 This model is a fine-tuned version of [facebook/bart-large-xsum](https://huggingface.co/facebook/bart-large-xsum) on the [BBC News Summary](https://www.kaggle.com/datasets/pariza/bbc-news-summary/) dataset.
 
+![Downloads](https://img.shields.io/badge/downloads-12-brightgreen)
+
 ## Training procedure
 
 ### Training hyperparameters
