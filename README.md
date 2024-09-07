@@ -3,7 +3,14 @@
 This model is a fine-tuned version of [facebook/bart-large-xsum](https://huggingface.co/facebook/bart-large-xsum) on the [BBC News Summary](https://www.kaggle.com/datasets/pariza/bbc-news-summary/) dataset.
 
 ![Downloads](https://img.shields.io/badge/downloads-12-brightgreen)
+<br>
 
+If you'd like to use this model in a pipeline, you can load it easily with Hugging Face's `transformers` library:
+<br>
+```python
+from transformers import pipeline
+summarizer = pipeline("summarization", model="Seif-Yasser/bart-large-xsum-finetuned-xsum")
+```
 ## Training procedure
 
 ### Training hyperparameters
